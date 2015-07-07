@@ -1,0 +1,22 @@
+{
+  "name": "random-proxy",
+  "version": "1.0.0",
+  "description": "yo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rsandor/random-proxy.git"
+  },
+  "author": "Ryan Sandor Richards <ryan@runnable.com> (http://www.runnable.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rsandor/random-proxy/issues"
+  },
+  "homepage": "https://github.com/rsandor/random-proxy",
+  "dependencies": {
+    "request": "^2.58.0"
+  }
+}
