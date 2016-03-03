@@ -6,6 +6,7 @@ var myPort = process.env.PORT || 9000;
 
 http.createServer(function (req, res) {
   request('http://' + host + ':' + port, function (err, response, body) {
+    console.log('Request for random item')
     if (err) {
       res.writeHead(502, {"Content-Type": "text/plain"});
       res.end("Could not reach " + host + ':' + port);
