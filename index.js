@@ -12,7 +12,7 @@ http.createServer(function (req, res) {
       return;
     }
     res.writeHead(200, {"Content-Type": "text/plain"});
-    res.end(body);
+    res.end('\n\nLOLZ\n' + body);
   });
 }).listen(myPort);
 
